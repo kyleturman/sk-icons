@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <title>Icon Test</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://a.slack-edge.com/bv1-9/slack-kit-styles.66ffa13.css?cacheKey=gantry-1626803246"/>
+    <link rel="stylesheet" href="https://a.slack-edge.com/bv1-9/client-boot-styles.0b76c27.css?cacheKey=gantry-1626803246"/>
+    <link rel="stylesheet" href="https://a.slack-edge.com/bv1-9/helper-styles.8105b7b.css?cacheKey=gantry-1626803246"/>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        @font-face {
+            font-family: "slack-icons-test";
+            src: url("./fonts/slack-icons-test.ttf");
+        }
+
+        .c-icon {
+            background-color: aliceblue;
+            vertical-align: text-bottom;
+        }
+
+        .c-icon--new:before {
+            font-family: "slack-icons-test";
+        }
+
+        .content {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .content > * > * {
+            display: flex;
+            gap: 4px;
+            justify-content: space-around;
+            margin-bottom: 4px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div style="font-size: 10px; font-weight: bold;">
+            <div><span style="color: maroon;">Old</span><span style="color: green">New</span></div>
+        </div>
+        <main><div>
+                    <i class="c-icon c-icon--add-user" aria-hidden="true"></i>
+                    <i class="c-icon c-icon--new c-icon--add-user" aria-hidden="true"></i>
+                </div><div>
+                    <i class="c-icon c-icon--thumb-tack" aria-hidden="true"></i>
+                    <i class="c-icon c-icon--new c-icon--thumb-tack" aria-hidden="true"></i>
+                </div></main>
+    </div>
+
+</body>
+</html>

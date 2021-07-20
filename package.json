@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "font": "script/font.js"
+  },
+  "devDependencies": {
+    "icon-font-buildr": "^1.4.2"
+  }
+}
